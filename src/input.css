@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn{
+    background-color: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0px;
+    text-align: left;
+    cursor: pointer;
+    transform: all 0.3s ease-in-out;
+    
+
+}
+.btn:hover{
+    background-color: #222;
+    color: #fff;
+}
